@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts" setup>
-import { toRefs, defineEmits } from 'vue';
+import { toRefs } from 'vue';
 
 const props = defineProps({
   modelValue: String,

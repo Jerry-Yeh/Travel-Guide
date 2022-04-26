@@ -24,7 +24,7 @@
 </template>
 
 <script lang="ts" setup>
-import { PropType, toRefs, defineEmits } from "vue";
+import { PropType, toRefs } from "vue";
 
 export interface Class {
   name: string;

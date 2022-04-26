@@ -157,28 +157,28 @@ let searchStatus_ = ref(true);
 const classList_ = reactive<Class[]>([
   {
     name: "地方特產",
-    imgUrl: "src/assets/img/restaurant/地方特產類.png",
-  },
+    imgUrl: new URL('../assets/img/restaurant/Class1.png', import.meta.url).href,
+},
   {
     name: "中式美食",
-    imgUrl: "src/assets/img/restaurant/中式美食類.png",
-  },
+    imgUrl: new URL('../assets/img/restaurant/Class2.png', import.meta.url).href,
+},
   {
     name: "甜點冰品",
-    imgUrl: "src/assets/img/restaurant/甜點冰品類.png",
-  },
+    imgUrl: new URL('../assets/img/restaurant/Class3.png', import.meta.url).href,
+},
   {
     name: "異國料理",
-    imgUrl: "src/assets/img/restaurant/異國料理類.png",
-  },
+    imgUrl: new URL('../assets/img/restaurant/Class4.png', import.meta.url).href,
+},
   {
     name: "伴手禮",
-    imgUrl: "src/assets/img/restaurant/伴手禮類.png",
-  },
+    imgUrl: new URL('../assets/img/restaurant/Class5.png', import.meta.url).href,
+},
   {
     name: "素食",
-    imgUrl: "src/assets/img/restaurant/素食類.png",
-  },
+    imgUrl: new URL('../assets/img/restaurant/Class6.png', import.meta.url).href,
+},
 ]);
 
 onMounted(() => {

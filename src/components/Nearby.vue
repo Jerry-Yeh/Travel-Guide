@@ -55,19 +55,19 @@ const router = useRouter();
 const items_ = reactive([
   {
     name: '附近景點',
-    icon: '/src/assets/img/icon/ScenicSpot.svg',
+    icon: new URL('../assets/img/icon/ScenicSpot.svg', import.meta.url).href,
     route: 'scenicSpotDetail',
     id: ''
   },
   {
     name: '附近活動',
-    icon: '/src/assets/img/icon/Activity.svg',
+    icon: new URL('../assets/img/icon/Activity.svg', import.meta.url).href,
     route: 'activityDetail',
     id: ''
   },
   {
     name: '附近美食',
-    icon: '/src/assets/img/icon/Restaurant.svg',
+    icon: new URL('../assets/img/icon/Restaurant.svg', import.meta.url).href,
     route: 'restaurantDetail',
     id: ''
   },

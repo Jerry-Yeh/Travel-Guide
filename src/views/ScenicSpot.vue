@@ -43,14 +43,7 @@
 
 <script lang="ts" setup>
 // Vue
-import {
-  ref,
-  toRefs,
-  reactive,
-  computed,
-  watch,
-  onMounted,
-} from "vue";
+import { ref, toRefs, reactive, computed, watch, onMounted } from "vue";
 import { useRouter } from "vue-router";
 import { useStore } from "vuex";
 
@@ -141,7 +134,9 @@ async function search(className?: string) {
       parameters
     ).then((response) => response);
   } else {
-    response = await TourismService.getScenicSpot(parameters).then((response) => response);
+    response = await TourismService.getScenicSpot(parameters).then(
+      (response) => response
+    );
   }
   const data = response.map((scenicSpot) => {
     return {
@@ -161,31 +156,31 @@ let searchStatus_ = ref(true);
 const classList_ = reactive<Class[]>([
   {
     name: "自然風景類",
-    imgUrl: "src/assets/img/scenicSpot/自然風景類.png",
+    imgUrl: new URL('../assets/img/scenicSpot/Class1.png', import.meta.url).href,
   },
   {
     name: "觀光工廠類",
-    imgUrl: "src/assets/img/scenicSpot/觀光工廠類.png",
+    imgUrl: new URL('../assets/img/scenicSpot/Class2.png', import.meta.url).href,
   },
   {
     name: "遊憩類",
-    imgUrl: "src/assets/img/scenicSpot/遊憩類.png",
+    imgUrl: new URL('../assets/img/scenicSpot/Class3.png', import.meta.url).href,
   },
   {
     name: "休閒農業類",
-    imgUrl: "src/assets/img/scenicSpot/休閒農業類.png",
+    imgUrl: new URL('../assets/img/scenicSpot/Class4.png', import.meta.url).href,
   },
   {
     name: "生態類",
-    imgUrl: "src/assets/img/scenicSpot/生態類.png",
+    imgUrl: new URL('../assets/img/scenicSpot/Class5.png', import.meta.url).href,
   },
   {
     name: "溫泉類",
-    imgUrl: "src/assets/img/scenicSpot/溫泉類.png",
+    imgUrl: new URL('../assets/img/scenicSpot/Class6.png', import.meta.url).href,
   },
   {
     name: "古蹟類",
-    imgUrl: "src/assets/img/scenicSpot/古蹟類.png",
+    imgUrl: new URL('../assets/img/scenicSpot/Class7.png', import.meta.url).href,
   },
 ]);
 

@@ -159,27 +159,27 @@ let searchStatus_ = ref(true);
 const classList_ = reactive<Class[]>([
   {
     name: "節慶活動",
-    imgUrl: "src/assets/img/activity/節慶活動類.png",
+    imgUrl: new URL('../assets/img/activity/Class1.png', import.meta.url).href,
   },
   {
     name: "自行車活動",
-    imgUrl: "src/assets/img/activity/自行車活動類.png",
+    imgUrl: new URL('../assets/img/activity/Class2.png', import.meta.url).href,
   },
   {
     name: "遊憩活動",
-    imgUrl: "src/assets/img/activity/遊憩活動類.png",
+    imgUrl: new URL('../assets/img/activity/Class3.png', import.meta.url).href,
   },
   {
     name: "產業文化活動",
-    imgUrl: "src/assets/img/activity/產業文化活動類.png",
+    imgUrl: new URL('../assets/img/activity/Class4.png', import.meta.url).href,
   },
   {
     name: "年度活動",
-    imgUrl: "src/assets/img/activity/年度活動類.png",
+    imgUrl: new URL('../assets/img/activity/Class5.png', import.meta.url).href,
   },
   {
     name: "四季活動",
-    imgUrl: "src/assets/img/activity/四季活動類.png",
+    imgUrl: new URL('../assets/img/activity/Class6.png', import.meta.url).href,
   },
 ]);
 
