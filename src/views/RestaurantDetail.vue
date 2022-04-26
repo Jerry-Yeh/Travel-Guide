@@ -80,8 +80,8 @@ import { useRouter } from "vue-router";
 import { useStore } from "vuex";
 
 // Type
-import { Restaurant } from "@/api/tourism";
-import type { City } from "@/api/basic";
+import { Restaurant } from "@/apis/tourism";
+import type { City } from "@/apis/basic";
 import type { CardData } from "@/components/Card.vue";
 
 // API

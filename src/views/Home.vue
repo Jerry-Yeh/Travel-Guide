@@ -137,7 +137,7 @@ import LookMore from "@/components/LookMore.vue";
 import CardList from "@/components/CardList.vue";
 
 // Type
-import { Activity, ScenicSpot, Restaurant } from "@/api/tourism";
+import { Activity, ScenicSpot, Restaurant } from "@/apis/tourism";
 import { CardData } from "@/components/Card.vue";
 
 // API

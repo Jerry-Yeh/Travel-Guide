@@ -1,7 +1,7 @@
 import { ActionContext } from 'vuex';
 import { RootState } from '../index';
-import { Parameters } from '@/api/api';
-import { ScenicSpot, Activity, Restaurant, Picture } from '@/api/tourism';
+import { Parameters } from '@/apis/api';
+import { ScenicSpot, Activity, Restaurant, Picture } from '@/apis/tourism';
 import TourismService from "@/services/tourismService";
 
 interface State {}

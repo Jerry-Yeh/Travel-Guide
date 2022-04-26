@@ -1,5 +1,5 @@
 import { } from 'vue';
-import { Picture, ScenicSpot, Activity, Restaurant } from '@/api/tourism';
+import { Picture, ScenicSpot, Activity, Restaurant } from '@/apis/tourism';
 import moment from 'moment';
 
 export default function () {

@@ -29,7 +29,7 @@
 
 <script lang="ts" setup>
 import { toRefs, PropType } from "vue";
-import { Picture } from "@/api/tourism";
+import { Picture } from "@/apis/tourism";
 
 export interface CardData {
   name: string;

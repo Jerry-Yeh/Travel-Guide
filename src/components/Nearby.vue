@@ -28,8 +28,8 @@
 <script lang="ts" setup>
 import { toRefs, reactive, PropType, watch } from 'vue';
 import { useRouter } from 'vue-router';
-import { Position } from '@/api/tourism';
-import { Parameters } from '@/api/api';
+import { Position } from '@/apis/tourism';
+import { Parameters } from '@/apis/api';
 import TourismService from '@/services/tourismService';
 
 interface Item {

@@ -1,6 +1,6 @@
 import { AxiosResponse } from "axios";
-import { Parameters } from '@/api/api';
-import TourismAPI, { ScenicSpot, Restaurant, Activity } from "@/api/tourism";
+import { Parameters } from '@/apis/api';
+import TourismAPI, { ScenicSpot, Restaurant, Activity } from "@/apis/tourism";
 
 export default class TourismService {
   static getScenicSpot(data?: Parameters): Promise<ScenicSpot[]> {

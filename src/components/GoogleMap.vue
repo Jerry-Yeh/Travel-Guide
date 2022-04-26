@@ -11,7 +11,7 @@
 
 <script lang="ts" setup>
 import { toRefs, PropType } from 'vue';
-import { Position } from '@/api/tourism';
+import { Position } from '@/apis/tourism';
 
 const props = defineProps({
   position: {

@@ -1,7 +1,7 @@
 import { ActionContext } from 'vuex';
 import { RootState } from '@/store/index';
-import { Parameters } from '@/api/api';
-import { City } from '@/api/basic';
+import { Parameters } from '@/apis/api';
+import { City } from '@/apis/basic';
 import BasicService from '@/services/basicService';
 
 export interface State {

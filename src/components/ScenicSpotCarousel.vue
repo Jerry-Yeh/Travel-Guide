@@ -48,7 +48,7 @@
 <script lang="ts" setup>
 import { ref, toRefs, PropType } from 'vue';
 import { useRouter } from 'vue-router';
-import { ScenicSpot } from '@/api/tourism';
+import { ScenicSpot } from '@/apis/tourism';
 
 const props = defineProps({
   items: {

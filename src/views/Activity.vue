@@ -54,8 +54,8 @@ import {
 import { useStore } from "vuex";
 
 // Type
-import type { City } from "@/api/basic";
-import type { Parameters } from "@/api/api";
+import type { City } from "@/apis/basic";
+import type { Parameters } from "@/apis/api";
 import type { CardData } from "@/components/Card.vue";
 
 // Component

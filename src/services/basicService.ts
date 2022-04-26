@@ -1,6 +1,6 @@
 import { AxiosResponse } from "axios";
-import { Parameters } from '@/api/api';
-import BasicAPI, { City } from "@/api/basic";
+import { Parameters } from '@/apis/api';
+import BasicAPI, { City } from "@/apis/basic";
 
 export default class TourismService {
   static getCity(data?: Parameters): Promise<City[]> {
